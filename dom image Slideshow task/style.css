@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-images{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.my-images> img
+{
+    width: 80%;
+    height: 400px;
+}
+.slidebutton>button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 20px;
+    box-shadow: inset 2px 2px 3px #c9c4c4,
+                       3px 3px 5px ;
+    color: antiquewhite;                   
+    
+    
+
+}
+
+ #btn1{
+    background-color: rgb(199, 68, 28);
+    right: 100px;
+    
+    
+    
+
+}
+#btn2{
+   
+    background-color: rgb(23, 82, 138);
+    left: 100px;
+    
+} 
+    
